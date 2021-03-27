@@ -4,7 +4,7 @@ import {FaBars, FaShoppingCart} from 'react-icons/fa';
 import {AiFillGift} from 'react-icons/ai';
 import { MdCardMembership, MdLocalShipping } from 'react-icons/md';
 import { useEffect, useState } from 'react';
-import logo from './img/verona.png';
+import logo from './img/verona-small.png';
 import temp1 from './img/temp-1.jpg';
 import temp2 from './img/temp-2.jpg';
 import temp3 from './img/temp-3.jpg';
@@ -42,24 +42,32 @@ const App = () => {
         </ul>
       </header>
       <div className='landing-page-container'>
-        <div className='landing-info-container'>
-           <div className='container-fluid'>
-            <div className='row'>
-              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                <div className='landing-title'>
-                  <h1>Poczuj piękno</h1>
-                  <button><p>Sprawdź ofertę</p></button>
+        <div className='padding-box'>
+          <div className='landing-info-container'>
+            <div className='container-fluid h-100'>
+              <div className='row h-50'>
+                <div className='col-lg-7 col-md-7 col-sm-6 col-xs-6'></div>
+                <div className='col-lg-5 col-md-5 col-sm-6 col-xs-6'>
+                  <div className='landing-info'>
+                    <h3>Partner</h3>
+                    <img src={logo} alt='verona-logo'></img>
+                  </div>
                 </div>
               </div>
-              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-md-block'>
-                <div className='landing-info'>
-                  <h3>Partner</h3>
-                  <img src={logo} alt='verona-logo'></img>
+              <div className='row h-50'>
+                <div className='col-lg-7 col-md-7 col-sm-6 col-xs-6'></div>
+                <div className='col-lg-5 col-md-5 col-sm-6 col-xs-6'>
+                  <div className='landing-title'>
+                    <h1>Poczuj piękno</h1>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <button className='landing-button'><p>Sprawdź ofertę</p></button>
+        
          
           {/* <div className='landing-info-container'>
             <div className='landing-title'>
@@ -71,7 +79,7 @@ const App = () => {
               <img src={logo} alt='verona-logo'></img>
             </div>
           </div> */}
-          <div className='features-container'>
+        <div className='features-container'>
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-lg-4 col-md-4 col-sm-6 col-xs-12'>
