@@ -196,20 +196,10 @@ $dark-theme: #000;
         font-size: 0.8rem;
         text-shadow: 1px 1px 15px #000;
         position: relative;
-        // padding-bottom: 2px;
         margin-bottom: 10px;
-        // font-weight: bolder;
-        // text-transform: uppercase;
-        // font-style: oblique;
-        // &::before {
-        //   content: '/ ';
-        //   color: $main-color;
-        //   font-weight: bolder;
-        // }
       }
       h4 {
         font-family: 'Poppins', sans-serif;
-        // text-transform: uppercase;
         letter-spacing: 1px;
         font-weight: bolder;
         font-size: 2rem;
@@ -245,7 +235,6 @@ $dark-theme: #000;
         background-color: #251818;
         padding: 12px 25px;
         width: 150px;
-        font-weight: bolder;
         animation: glow1 3s ease-in-out infinite;
 
         @keyframes glow1 {
@@ -253,7 +242,7 @@ $dark-theme: #000;
             transform: scale(1);
           }
           50% {
-            transform: scale(1.03);
+            transform: scale(1.02);
           }
           100% {
             transform: scale(1);
@@ -770,14 +759,13 @@ $dark-theme: #000;
 
 .contact-box {
   display: flex;
-  height: 200px;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   color: $secondary-color;
   // text-shadow: 1px 1px #242424;
   font-weight: normal;
-  padding: 20px;
+  padding: 15px;
   // background-color: #24242499;
   // border: 2px solid $main-color;
 
@@ -791,7 +779,7 @@ $dark-theme: #000;
     background-color: #242424;
     color: $secondary-color;
     border: 1px solid $secondary-color;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 1.3rem;
     position: relative;
   }
@@ -809,6 +797,19 @@ $dark-theme: #000;
 
 .contact-container * {
   z-index: 300;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+
+  p {
+    margin: 0;
+  }
 }
 
 

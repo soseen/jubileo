@@ -1,35 +1,20 @@
 import './App.scss';
 import Carousel from './Carousel';
 import {GiShoppingBag, GiBigDiamondRing} from 'react-icons/gi';
-import {FaBars, FaShoppingCart, FaEnvelopeOpen, FaFacebookF} from 'react-icons/fa';
+import {FaBars, FaEnvelopeOpen, FaFacebookF} from 'react-icons/fa';
 import {AiFillGift} from 'react-icons/ai';
 import { MdCardMembership, MdLocalShipping, MdLocationOn, MdPhonelinkRing } from 'react-icons/md';
 import { useEffect, useState } from 'react';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import logo from './img/verona-small.png';
 import bg from './img/bg-cropped.png'
-import bg1 from './img/bg-3-cropped.png'
-import temp1 from './img/temp-1.jpg';
-import temp2 from './img/temp-2.jpg';
-import temp3 from './img/temp-3.jpg';
 import mix from './img/mixed.png';
 
 const App = () => {
 
   const [navbarBackground, setNavbarBackground] = useState('navbar-transparent');
-
-  var settings = {
-    dots: false,
-    arrows: true,
-    infinite: false,
-    center: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-  };
 
 
   const handleScroll = () => {
@@ -92,7 +77,7 @@ const App = () => {
                 <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
                   <div className='features-box'>
                     <MdCardMembership />
-                    <h4>Karty rabatowe dla stałych klientów</h4>
+                    <h4>Rabat dla stałych klientów</h4>
                   </div>
                 </div>
               </div>
@@ -165,8 +150,12 @@ const App = () => {
             </div>
           </div>
         </div>
-
       </div>
+
+      <footer>
+        <p>Przemysław Sosnowski</p>
+        <p>2021</p>
+      </footer>
 
     </div>
 
