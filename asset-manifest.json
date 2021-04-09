@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/jubileo/static/css/main.140b1d17.chunk.css",
+    "main.js": "/jubileo/static/js/main.5679d48e.chunk.js",
+    "main.js.map": "/jubileo/static/js/main.5679d48e.chunk.js.map",
+    "runtime-main.js": "/jubileo/static/js/runtime-main.6e67a87a.js",
+    "runtime-main.js.map": "/jubileo/static/js/runtime-main.6e67a87a.js.map",
+    "static/css/2.7a2bbdca.chunk.css": "/jubileo/static/css/2.7a2bbdca.chunk.css",
+    "static/js/2.5cfcdcd2.chunk.js": "/jubileo/static/js/2.5cfcdcd2.chunk.js",
+    "static/js/2.5cfcdcd2.chunk.js.map": "/jubileo/static/js/2.5cfcdcd2.chunk.js.map",
+    "static/js/3.3a7e33f4.chunk.js": "/jubileo/static/js/3.3a7e33f4.chunk.js",
+    "static/js/3.3a7e33f4.chunk.js.map": "/jubileo/static/js/3.3a7e33f4.chunk.js.map",
+    "index.html": "/jubileo/index.html",
+    "static/css/2.7a2bbdca.chunk.css.map": "/jubileo/static/css/2.7a2bbdca.chunk.css.map",
+    "static/css/main.140b1d17.chunk.css.map": "/jubileo/static/css/main.140b1d17.chunk.css.map",
+    "static/js/2.5cfcdcd2.chunk.js.LICENSE.txt": "/jubileo/static/js/2.5cfcdcd2.chunk.js.LICENSE.txt",
+    "static/media/Carousel.scss": "/jubileo/static/media/rings-bg.3d84b5a7.jpg",
+    "static/media/bg-cropped.7ede8d60.png": "/jubileo/static/media/bg-cropped.7ede8d60.png",
+    "static/media/mixed.6e66b4e1.png": "/jubileo/static/media/mixed.6e66b4e1.png",
+    "static/media/slick-theme.css": "/jubileo/static/media/slick.c94f7671.ttf",
+    "static/media/temp-1.b50f78f6.jpg": "/jubileo/static/media/temp-1.b50f78f6.jpg",
+    "static/media/temp-2.4120d4eb.jpg": "/jubileo/static/media/temp-2.4120d4eb.jpg",
+    "static/media/temp-3.c3a3e2c3.jpg": "/jubileo/static/media/temp-3.c3a3e2c3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e67a87a.js",
+    "static/css/2.7a2bbdca.chunk.css",
+    "static/js/2.5cfcdcd2.chunk.js",
+    "static/css/main.140b1d17.chunk.css",
+    "static/js/main.5679d48e.chunk.js"
+  ]
+}
