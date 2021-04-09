@@ -739,7 +739,7 @@ $dark-theme: #000;
   align-items: space-evenly;
   justify-content: center;
   padding: 60px 10px;
-
+  margin: 0;
 }
 
 .contact-box {
@@ -748,11 +748,8 @@ $dark-theme: #000;
   align-items: center;
   justify-content: flex-start;
   color: $secondary-color;
-  // text-shadow: 1px 1px #242424;
   font-weight: normal;
   padding: 15px;
-  // background-color: #24242499;
-  // border: 2px solid $main-color;
 
   .contact-icon {
     width: 50px;
@@ -794,6 +791,7 @@ footer {
 
   p {
     margin: 0;
+    font-size: 1rem;
   }
 }
 
@@ -804,10 +802,6 @@ footer {
   html {
     font-size: 14px;
   }
-
-  // .app {
-  //   font-size: 14px;
-  // }
 
   .navbar {
     padding: 10px 20px;
