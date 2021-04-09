@@ -121,7 +121,7 @@ const App = () => {
                 <div className='contact-icon'>
                   <MdLocationOn />
                 </div>
-                <p>Łęczna, Jana Pawła II 99</p>
+                <p>Lublin, Nadbystrzycka 14</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
@@ -129,7 +129,7 @@ const App = () => {
                 <div className='contact-icon'>
                   <MdPhonelinkRing />
                 </div>
-                <p>608 351 864</p>
+                <p>668 354 868</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
@@ -145,7 +145,7 @@ const App = () => {
                 <div className='contact-icon'>
                   <FaEnvelopeOpen />
                 </div>
-                <p>jubileo@kontakt.gmail.com</p>
+                <p>kontakt@jubileo.pl</p>
               </div>
             </div>
           </div>
