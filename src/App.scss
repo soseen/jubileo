@@ -503,10 +503,6 @@ $dark-theme: #000;
 
 .about-container {
   width: 100%;
-  // min-height: 700px;
-  // background-image: url(./img/bg-1.png);
-  // background-size: cover;
-  // background-position: center;
   background-color: #fff;
   background-attachment: initial;
   display: flex;
@@ -515,18 +511,6 @@ $dark-theme: #000;
   justify-content: flex-start;
   padding: 60px 0;
   position: relative;
-
-  // &::after {
-  //   content: '';
-  //   position: absolute;
-  //   width: 100%;
-  //   height: 100%;
-  //   bottom: 0;
-  //   left: 0;
-  //   background-color: #00000090;
-  //   z-index: 100;
-  // }
-
   
 }
 
@@ -581,6 +565,7 @@ $dark-theme: #000;
   p {
     margin-bottom: 30px;
     color: #000;
+    font-size: 1.2rem;
   }
 
 }
@@ -816,9 +801,13 @@ footer {
 
 @media (max-width: 992px) {
 
-  .app {
+  html {
     font-size: 14px;
   }
+
+  // .app {
+  //   font-size: 14px;
+  // }
 
   .navbar {
     padding: 10px 20px;
@@ -911,6 +900,10 @@ footer {
 }
 
 @media (max-width: 576px) {
+
+  html {
+    font-size: 12px;
+  }
 
   .navbar {
     padding: 10px 25px;

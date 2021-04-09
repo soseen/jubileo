@@ -12,14 +12,14 @@
     text-align: left;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    margin-bottom: 20px;   
+    margin-bottom: 30px;   
   }
 
   .item-content {
       padding: 20px 0;
       h4 {
           color: #252525;
-          font-size: 1.8rem;
+          font-size: 1.5rem;
           position: relative;
           padding-bottom: 10px;
 
@@ -36,10 +36,11 @@
 
       .item-price {
           color: $main-color;
-          font-size: 2rem;
+          font-size: 1.8rem;
       }
 
       button {
+        font-size: 1rem;
           outline: none;
           border: none;
         //   border-radius: 2px;
@@ -60,6 +61,7 @@
     img {
         width: 300px;
         height: auto;
+        margin-right: 10px;
         // padding: 5px;
         // border: 2px solid #141414;
         // background-color: #fff;
@@ -92,3 +94,31 @@
       background: $main-color;
   }
   
+  @media (max-width: 992px) {
+
+    html {
+      font-size: 14px;
+    }
+
+    .item-container {
+      padding: 20px;
+    }
+
+    .item-content {
+
+      h4 {
+      }
+
+      .item-price {
+      }
+
+      button {
+        padding: 10px;
+      }
+    }
+    
+    .item-img img{
+      width: 180px;
+    }
+
+  }
